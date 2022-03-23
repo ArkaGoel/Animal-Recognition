@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Animal Recognition</title>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="main.js"></script>   
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+        <section id="section_1">
+             <h1><kbd>Animal Recognition</kbd></h1>
+             <b><label style="color: red;">NOTE: Click on the button and play sounds of Dog, Cat, Horse, Pig or Lion it will identify it</label></b>
+             <br>
+             <button class="btn btn-success" onclick="Sound()">Sound</button>
+             <p style="font-style: oblique; color: aqua;">The Identified Sound is: <span id="Identified_Sound"></span></p>
+             <p style="font-style: oblique; color: aqua;">Accuracy: <span id="sound_accuracy"></span></p>
+        </section>
+        <section id="section_2">
+          <h1>Images will be visible after next 2 classes</h1>
+        </section>
+        <section id="section_3">
+           <div class="copy_right_footer">
+            🙂 Made by Arka Goel🙂
+           </div>
+        </section>
+    </center>
+    </body>
+</html>
