@@ -4,6 +4,10 @@
 #section_2{
     background-color: greenyellow;
 }
-#section_3{
+.copy_right_footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     background-color: skyblue;
+    text-shadow: 5px 5px 5px gray;
 }
